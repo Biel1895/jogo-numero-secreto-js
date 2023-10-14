@@ -4,7 +4,7 @@ Este é um jogo simples desenvolvido em JavaScript, onde o jogador deve adivinha
 
 ## Captura de Tela
 
-![Screenshot 1](./assets/screencapture-flanatics.png)
+![Screenshot 1](./img/screencapture-secret-number-game-js-vercel-app.png)
 
 ## Funcionalidades
 
