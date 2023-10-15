@@ -26,6 +26,11 @@ ExibirMensagemInicial();
 function verificarChute() {
     let chute = document.querySelector('input').value;
 
+    if (isNaN(chute) || chute === '') {
+        alert('Digite um número válido!');
+        return;
+    }
+
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
